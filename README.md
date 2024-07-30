@@ -1,9 +1,12 @@
 **IMPLEMENTATION OF A DIGITAL MLP**
 
-The model is adopted from the paper:
-1. Minhao Yang, _A 1μW voice activity detector using analog feature extraction and digital deep neural network_, ISSCC2018
+1. The model is adopted from the paper:
+Minhao Yang, _A 1μW voice activity detector using analog feature extraction and digital deep neural network_, ISSCC2018
 
-Block diagram. This work covers the controll logic, and the MLP circuit from WMEM and DMEM leading to the output.
+2. Visualization of the MLP
+![image](https://github.com/user-attachments/assets/2526c5f4-4316-4728-ba2d-4041268717c4)
+
+2. Block diagram. This work covers the controll logic, and the MLP circuit from WMEM and DMEM leading to the output.
 ![image](https://github.com/user-attachments/assets/d270d4cd-89f9-4037-a078-8c852dfc7959)
 
 **PROGRAM FLOW EXPLAINATION**
