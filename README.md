@@ -1,10 +1,10 @@
-#IMPLEMENTATION OF A DIGITAL MLP#
+**IMPLEMENTATION OF A DIGITAL MLP**
 
 The model is adopted from the paper:
-1. Minhao Yang, A 1μW voice activity detector using analog feature extraction and digital deep neural network, ISSCC2018
+1. Minhao Yang, _A 1μW voice activity detector using analog feature extraction and digital deep neural network_, ISSCC2018
 
 
-#PROGRAM FLOW EXPLAINATION#
+**PROGRAM FLOW EXPLAINATION**
 
 1.	Wait 85ms so DMEM are loaded. Here model ~10 cycles, but in real design, 42500 cycles of 500kHz
 ![image](https://github.com/user-attachments/assets/ad7ed595-faf5-49b4-947b-7062ae2fe9d5)
